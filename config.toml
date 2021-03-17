@@ -1,0 +1,35 @@
+baseURL = "https://mcserverhosting.net/support"
+languageCode = "en-us"
+title = "MC Server Hosting"
+theme = "hugo-lamp"
+
+[[menu.main]]
+  name = "Discord / Contact"
+  weight = 1
+  identifier = "hugo"
+  url = "https://discord.gg/vzwCs8K"
+[[menu.main]]
+  name = "Plans"
+  weight = 2
+  identifier = "amp"
+  url = "https://mcserverhosting.net/plans/index.html"
+
+[params]
+  mainSections = ["posts"]
+  subtitle = "Support for our various services."
+  author = "Samuel Walker"
+  logo = "/support/img/mcserverhosting-icon-transparent.svg"
+  description = "Minecraft Server Hosting Support and articles."
+  paginate = 10
+
+  # SEO configs
+  seotitle = "MCSH - Support"
+
+  # Social networks
+  email = "support@mcserverhosting.net"
+  github = "mcserverhosting-net"
+
+[taxonomies]
+  category = "/support/categories"
+  servertype = "/support/servertypes"
+  tag = "/support/tags"
