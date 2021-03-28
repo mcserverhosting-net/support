@@ -64,7 +64,7 @@ If for some reason you need to redownload the server core, set the redownload fi
 
 ```
   network:
-    domainName: play.mcserverhosting.red
+    domainName: 
 ```
 Using domain name, you can declare the domain name you wish to use. If the domain is available, we will attempt to use this domain to route to your Minecraft server. Available primary domains are play.minecraftserverhost.xyz, play.minecraftserverhost.best, play.minecraftserver.host, play.minecraftserverhosting.sh, and play.mcserverhosting.net. 
 
